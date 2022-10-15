@@ -1,10 +1,10 @@
 {
     "chain_name": "haqq",
     "coingecko": "",
-    "api": ["https://rest.cosmos.testedge2.haqq.network/"],
-    "rpc": ["https://rpc.tm.testedge2.haqq.network/"],
+    "api": ["https://haqq-t.api.manticore.team/"],
+    "rpc": ["https://haqq-t.rpc.manticore.team:443/"],
     "snapshot_provider": "",
-    "sdk_version": "0.45.3",
+    "sdk_version": "0.45.6",
     "coin_type": "60",
     "min_tx_fee": "3000000000000000",
     "addr_prefix": "haqq",
@@ -16,4 +16,5 @@
         "coingecko_id": "",
         "logo": "/logos/islm.svg"
     }]
+	"keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
 }
